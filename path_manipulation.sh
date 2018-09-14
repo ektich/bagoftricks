@@ -3,6 +3,11 @@
 # September 2018
 #
 # Example on how to manipulate PATH variable
+#
+# "source" this file if you want "father" shell's PATH to get
+# modified. Otherwise changes will stay within this script's subshell
+# another trick is to launch subshell out of this one with "eval
+# /bin/bash", but this leads to "shell in the shell" situation
 
 newpath=/opt/local/bin
 
